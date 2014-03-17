@@ -1,8 +1,8 @@
 [
-  { "keys": ["super+k", "up"], "command": "travel_to_pane", "args": {"direction": "up"} },
-  { "keys": ["super+k", "right"], "command": "travel_to_pane", "args": {"direction": "right"} },
-  { "keys": ["super+k", "down"], "command": "travel_to_pane", "args": {"direction": "down"} },
-  { "keys": ["super+k", "left"], "command": "travel_to_pane", "args": {"direction": "left"} },
+  { "keys": ["ctrl+x", "up"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+x", "right"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+x", "down"], "command": "travel_to_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+x", "left"], "command": "travel_to_pane", "args": {"direction": "left"} },
   
   { "keys": ["super+k", "shift+up"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
   { "keys": ["super+k", "shift+right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
@@ -24,13 +24,25 @@
   { "keys": ["super+k", "super+shift+down"], "command": "destroy_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "super+shift+left"], "command": "destroy_pane", "args": {"direction": "left"} },
   // You can also destroy the current pane by binding the following command:
-  // { "keys": [], "command": "destroy_pane", "args": {"direction": "self"} },
+  { "keys": ["ctrl+x", "0"], "command": "destroy_pane", "args": {"direction": "self"} },
   
   { "keys": ["super+k", "super+alt+up"], "command": "create_pane_with_file", "args": {"direction": "up"} },
-  { "keys": ["super+k", "super+alt+right"], "command": "create_pane_with_file", "args": {"direction": "right"} },
-  { "keys": ["super+k", "super+alt+down"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+  // { "keys": ["super+k", "super+alt+right"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+  { "keys": ["ctrl+x", "3"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+  // { "keys": ["super+k", "super+alt+down"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+  { "keys": ["ctrl+x", "2"], "command": "create_pane_with_file", "args": {"direction": "down"} },
   { "keys": ["super+k", "super+alt+left"], "command": "create_pane_with_file", "args": {"direction": "left"} },
   
-  { "keys": ["super+k", "super+z"], "command": "zoom_pane", "args": {"fraction": 0.9} },
-  { "keys": ["super+k", "super+shift+z"], "command": "unzoom_pane", "args": {} }
+  { "keys": ["super+k", "super+z"], "command": "zoom_pane", "args": {"fraction": 0.95} },
+  { "keys": ["super+k", "super+shift+z"], "command": "unzoom_pane", "args": {} },
+    {
+    "keys": ["ctrl+x", "1"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1]]
+    }
+  },
 ]
