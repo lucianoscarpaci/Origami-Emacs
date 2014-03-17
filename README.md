@@ -1,12 +1,12 @@
 ### Install
 
-## Step 1
+#### Step 1
 Add following 2 forked repositories to sublime ``CMD+P -> Add Repository -> copy following``.
 
 1. Split Pane https://github.com/kevincobain2000/sublemacspro
 2. Emacs Key bindings https://github.com/kevincobain2000/Origami-Emacs
 
-## Step 2
+### Step 2
 
 - Remove if you have installed following 2 already
   - sublemacspro
@@ -46,3 +46,9 @@ Add following 2 forked repositories to sublime ``CMD+P -> Add Repository -> copy
 
 - ``C-x o``
    - Cycle cursor to next pane
+
+
+### Original Packages
+
+- https://github.com/SublimeText/Origami
+- https://github.com/grundprinzip/sublemacspro
