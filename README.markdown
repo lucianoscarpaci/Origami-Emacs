@@ -1,3 +1,8 @@
+Work in Progress
+================
+
+For the time being please see https://github.com/kevincobain2000/sublime-emacs-split
+
 Origami
 ======
 Origami is a new way of thinking about panes in Sublime Text 2 and 3: you tell Sublime Text where you want a new pane, and it makes one for you. It works seamlessly alongside the built-in layout commands.
