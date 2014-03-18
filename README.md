@@ -34,3 +34,11 @@
 
 - https://github.com/SublimeText/Origami
 - https://github.com/grundprinzip/sublemacspro
+
+
+### Compatibility with SublimeEmacsPro key bindings
+
+If you want to use sublimeEmacsPro key bindings then install using the following
+
+- ``CMD+P -> Add Repository(↓) -> Install !``
+- https://github.com/kevincobain2000/sublemacspro
