@@ -28,9 +28,9 @@
 
   { "keys": ["ctrl+k", "ctrl+alt+up"], "command": "create_pane_with_file", "args": {"direction": "up"} },
   // { "keys": ["ctrl+k", "ctrl+alt+right"], "command": "create_pane_with_file", "args": {"direction": "right"} },
-  { "keys": ["ctrl+x", "3"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+  { "keys": ["ctrl+x", "3"], "command": "create_pane_with_file", "args": {"direction": "left"} },
   // { "keys": ["ctrl+k", "ctrl+alt+down"], "command": "create_pane_with_file", "args": {"direction": "down"} },
-  { "keys": ["ctrl+x", "2"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+  { "keys": ["ctrl+x", "2"], "command": "create_pane_with_file", "args": {"direction": "up"} },
   { "keys": ["ctrl+k", "ctrl+alt+left"], "command": "create_pane_with_file", "args": {"direction": "left"} },
 
   { "keys": ["ctrl+k", "ctrl+z"], "command": "zoom_pane", "args": {"fraction": 0.95} },
