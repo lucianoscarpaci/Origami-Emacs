@@ -43,6 +43,13 @@
 - ``C-x-right``
    - Move File to pane above
 
+### Zoom (Not Emacs)
+
+- ``CMD+]``
+  - Zoom In Pane
+
+- ``CMD+[``
+  - Zoom Out
 
 ### Original Packages
 
