@@ -29,6 +29,20 @@
 - ``C-x o``
    - Cycle cursor to next pane
 
+### Move File (Not Emacs)
+
+- ``C-x-up``
+   - Move File to pane above
+
+- ``C-x-down``
+   - Move File to pane above
+
+- ``C-x-left``
+   - Move File to pane above
+
+- ``C-x-right``
+   - Move File to pane above
+
 
 ### Original Packages
 
