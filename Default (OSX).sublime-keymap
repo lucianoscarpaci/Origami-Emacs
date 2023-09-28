@@ -36,7 +36,7 @@
   { "keys": ["super+]"], "command": "zoom_pane", "args": {"fraction": 0.95} },
   { "keys": ["super+["], "command": "unzoom_pane", "args": {} },
   {
-    "keys": ["ctrl+x", "1"],
+    "keys": ["ctrl+x", "9"],
     "command": "set_layout",
     "args":
     {
