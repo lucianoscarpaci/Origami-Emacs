@@ -14,17 +14,17 @@
 
 ### Navigate
 
-- ``C-x up``
-   - Move Cursor to pane above
+- ``C-x k``
+   - Move Cursor to pane up 
 
-- ``C-x down``
-   - Move Cursor to pane above
+- ``C-x j``
+   - Move Cursor to pane down 
 
-- ``C-x left``
-   - Move Cursor to pane above
+- ``C-x l``
+   - Move Cursor to pane left 
 
-- ``C-x right``
-   - Move Cursor to pane above
+- ``C-x h``
+   - Move Cursor to pane right 
 
 - ``C-x o``
    - Cycle cursor to next pane
