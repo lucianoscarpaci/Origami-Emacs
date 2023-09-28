@@ -1,20 +1,16 @@
 ### To Split
 
+- ``C-x 2``
+   - Split the selected window into two windows, one above the other (split-window-below).
+
+- ``C-x 3``
+  - Split the selected window into two windows, positioned side by side (split-window-right).
 
 - ``C-x 0``
   - Removes current pane
 
-- ``C-x 9``
-  - Unsplit all
 - ``C-x 1``
-   - Split left
-- ``C-x 2``
-  - Split down
-- ``C-x 3``
-  - Split up
-
-- ``C-x 4``
-  - Split right
+  - Unsplit all
 
 ### Navigate
 
